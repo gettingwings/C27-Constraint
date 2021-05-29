@@ -18,6 +18,7 @@ class Chain{
     }
 
     display(){
+        text("new text", 50,50)
         var posA = this.chain.bodyA.position;
         var posB = this.chain.bodyB.position;
         strokeWeight(2);
